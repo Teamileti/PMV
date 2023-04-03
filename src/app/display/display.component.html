@@ -1,0 +1,17 @@
+<div class = "container">
+  <div class = "center">
+    <mat-card class = "pmv-text">
+      <p>{{content}}</p>
+    </mat-card>
+  <div class = "form-container">
+    <form [formGroup]="messageForm">
+  <mat-form-field style="text-decoration: aliceblue; margin-left: 10px;">
+    <mat-label>Emergency Message</mat-label>
+    <input matInput type="text" formControlName = "Emergency">
+  </mat-form-field>
+    <button style="margin-left: 100px; color: cadetblue;" mat-raised-button color="basic" (click)="onSubmit()"><mat-icon>send</mat-icon></button>
+      <button style="margin-left: 7px;" mat-raised-button color="basic" (click)="restart()">Restart<mat-icon>refresh</mat-icon></button>
+  </form>
+  </div>
+  </div>
+</div>

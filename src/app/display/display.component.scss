@@ -1,0 +1,28 @@
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center{
+  width: 500px;
+  height: 300px;
+  background-color: gray;
+  border-style: solid;
+  border-color: darkkhaki;
+}
+.pmv-text{
+  width: auto;
+  height: 200px;
+}
+.center p{
+  text-justify: distribute;
+ text-align: center;
+  color: darkkhaki;
+  font-size: 35px;
+  margin-top:80px;
+}
+.form-container mat-form-field + mat-button{
+  margin-left: 20px;
+  text-decoration-color: aliceblue;
+}
